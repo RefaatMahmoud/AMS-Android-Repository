@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MAS</string>
+    <string name="logprof">Login As Professor</string>
+    <string name="logstudent">Login As Student</string>
+    <string name="createAccount">Create New Account</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="login">Login</string>
+</resources>
