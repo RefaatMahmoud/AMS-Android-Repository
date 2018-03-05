@@ -17,48 +17,50 @@
 
     <EditText
         android:id="@+id/username"
-        android:layout_width="320dp"
-        android:layout_height="47dp"
+        android:layout_width="600px"
+        android:layout_height="120px"
         android:layout_below="@+id/second_logo"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="74dp"
         android:ems="10"
+        android:textSize="32px"
         android:inputType="textPersonName"
         android:hint="@string/username"
         android:background="#FFFFFF"
         android:drawableLeft="@drawable/username"
-        android:drawablePadding="20dp"
-        android:padding="11dp"/>
+        android:drawablePadding="25dp"
+        android:padding="18dp"/>
 
     <EditText
         android:id="@+id/password"
-        android:layout_width="320dp"
-        android:layout_height="47dp"
+        android:layout_width="600px"
+        android:layout_height="120px"
         android:layout_alignLeft="@+id/username"
         android:layout_alignStart="@+id/username"
         android:layout_below="@+id/username"
         android:layout_marginTop="22dp"
         android:ems="10"
         android:inputType="textPassword"
+        android:textSize="32px"
         android:hint="@string/password"
         android:background="#FFFFFF"
         android:drawableLeft="@drawable/pass"
-        android:drawablePadding="20dp"
-        android:padding="11dp"/>
+        android:drawablePadding="25dp"
+        android:padding="18dp"/>
 
     <Button
         android:id="@+id/btn_login"
-        android:layout_width="280dp"
-        android:layout_height="47dp"
+        android:layout_width="600px"
+        android:layout_height="120px"
         android:layout_below="@+id/password"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="32dp"
         android:text="@string/login"
         android:background="@drawable/rounded_button"
         android:textColor="#FFFFFF"
-        android:textSize="17dp"
+        android:textSize="32px"
         android:drawableRight="@drawable/door"
-        android:paddingRight="90dp"
+        android:paddingRight="95dp"
         android:drawablePadding="-100dp"/>
 
 </RelativeLayout>
