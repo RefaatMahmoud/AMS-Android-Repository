@@ -8,5 +8,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-
+    <style name="SwitchCompatTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorControlActivated">@color/enable_thumb</item>
+    </style>
 </resources>

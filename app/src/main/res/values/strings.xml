@@ -6,4 +6,14 @@
     <string name="username">username</string>
     <string name="password">password</string>
     <string name="login">Login</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="search">Search</string>
+    <string name="pause">Pause</string>
+    <string name="student">Student1</string>
+    <string name="active">Active</string>
+    <string name="timeleft">05 : 00</string>
+    <string name="timeleft2">Time Left :</string>
+    <string name="resume">Resume</string>
+    <string name="code">Enter code</string>
+    <string name="ok">OK</string>
 </resources>

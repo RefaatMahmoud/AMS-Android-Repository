@@ -16,7 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LoginForm"></activity>
+        <activity android:name=".LoginForm" />
+        <activity android:name=".ManualAttendance" />
+        <activity android:name=".TimeCounterActivity"></activity>
     </application>
 
 </manifest>

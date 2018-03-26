@@ -61,6 +61,7 @@
         android:textSize="32px"
         android:drawableRight="@drawable/door"
         android:paddingRight="95dp"
+        android:onClick="test"
         android:drawablePadding="-100dp"/>
 
 </RelativeLayout>
