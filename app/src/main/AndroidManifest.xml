@@ -18,7 +18,6 @@
         </activity>
         <activity android:name=".LoginForm" />
         <activity android:name=".ManualAttendance" />
-        <activity android:name=".TimeCounterActivity"></activity>
     </application>
 
 </manifest>

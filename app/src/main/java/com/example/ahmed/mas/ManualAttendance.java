@@ -24,11 +24,12 @@ public class ManualAttendance extends AppCompatActivity {
         recyclerView = (RecyclerView)findViewById(R.id.recycler_view);
         data = new ArrayList<>();
         adapter = new StudentRowAdapter(getApplicationContext(),data);
-        recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
-        for(int i = 0 ; i<15;i++){
-            data.add("Student"+i);
-        }
+//        for(int i = 0 ; i<25;i++){
+//            data.add("Student "+ i);
+//        }
+        recyclerView.setHasFixedSize(true);
+        recyclerView.setAdapter(adapter);
 
     }
 }
